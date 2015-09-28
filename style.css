@@ -1,0 +1,65 @@
+#navbar{
+    list-style-type:none;
+    background-color:darkgray;
+    padding:10px;
+    font-size:15px;
+    font-family:tahoma;
+    text-align:center;
+}
+#navlist li{
+    display:inline;
+    margin:10px;
+    text-align:center;
+    color:black;
+    font-weight: bold;
+}
+body{
+    background-color: black;
+}
+h1{
+    background-color:black;
+    color:white;
+    font-family: Tangerine, serif;
+    font-size:70px;
+    text-shadow: 4px 4px 4px #aaa;
+    text-align:center;
+}
+#footer{
+    background-color:gainsboro;
+    color:black;
+    font-size:15px;
+    padding:20px;
+    border-style:dashed;
+    font-family:tahoma;
+    text-align:center;
+}
+p{
+    color:white;
+    font-size:20px;
+    text-align:center;
+}
+h2{
+    color:lightskyblue;
+    font-family:"Slabo 27px", serif;
+    font-size:25px;
+    text-align:center;
+}
+#skillslist{
+    color:lightgreen;
+    text-align:center;
+    list-style-type:none;
+    font-size:20px;
+}
+#footerlist li{
+    color:black;
+    text-align:center;
+    display:inline;
+    margin:10px;
+    font-family:tahoma;
+}
+#experiencelist{
+    color:white;
+    text-align:justify;
+    padding:20px;
+    font-size:20px;
+}
