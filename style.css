@@ -63,3 +63,22 @@ h2{
     padding:20px;
     font-size:20px;
 }
+@media only screen and (max-width: 376px){
+    body{
+        width:100%;
+    }
+    #navlist{
+        padding-left:0px;
+        font-size:14px;
+    }
+    #footerlist{
+        padding-left:0px;
+        font-size:12px;
+        text-align:center;
+    }
+    #main_content{
+        margin:0px auto;
+        padding-left:0px;
+    }
+
+}

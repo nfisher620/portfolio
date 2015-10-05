@@ -4,6 +4,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Slabo+27px">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <div id="header">
@@ -17,7 +18,7 @@
         <li><a href="#contactme">Contact Me</a></li>
     </ul>
 </div>
-<ul id="main content">
+<ul id="main_content">
     <h2 id="aboutme">About Me</h2>
         <p>My name is Nicole and I was born and raised in Orange County, California. I graduated from the University of
         California at Davis in 2011 with a Bachelor of Science degree in Managerial Economics. In June 2015, I received
@@ -69,11 +70,18 @@
 </div>
 <div id="footer">
     <h3 id="contactme">Contact Me</h3>
+    <form action="http://learningfuze.com/echo.php" method="post">
+        <input type="text" name="Name" placeholder="Name"><br>
+        <input type="text" name="Email" placeholder="email"><br>
+        <textarea rows="7" cols="18" name="message" placeholder="Message"></textarea><br>
+        <input type="submit" name="Submit" value="Submit">
+    </form>
+    <br>
+    <br>
     <ul id="footerlist">
         <li><a href="https://github.com/nfisher620">GitHub Account</a></li>
         <li>Email: ncspence4@gmail.com</li>
         <li><a href="https://www.linkedin.com/in/nspence620">LinkedIn</a></li>
-        <li>Contact Form</li>
     </ul>
 </div>
 </body>
