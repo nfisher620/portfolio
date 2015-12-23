@@ -26,6 +26,7 @@ header p{
     position:relative;
     top:34vh;
     font-size:20px;
+    font-family:"Slabo 27px",serif;
     text-shadow: 7px 7px 7px black;
 }
 .navbar li, a{
@@ -36,6 +37,7 @@ header p{
     padding-left:15px;
     text-decoration:none;
     font-family:"Slabo 27px", serif;
+    font-size:1.2em;
 }
 .navbar{
     position:absolute;
@@ -124,7 +126,7 @@ body {
 
 @media (min-width: 992px) {
     .featurette-heading {
-        margin-top: 120px;
+        margin-top: 13vh;
     }
 }
 .row{
@@ -135,4 +137,30 @@ body {
 }
 .carousel{
     width:35vw;
+}
+#footer{
+    background-image:url("images/AndyKing0006.jpg");
+    background-position: center;
+    width:100%;
+    height:100%;
+    color:black;
+    font-size:15px;
+    padding:20px;
+    border-top:10px solid black;
+    font-family:tahoma;
+    text-align:center;
+}
+#footerlist li{
+    color:black;
+    text-align:center;
+    display:inline;
+    margin:10px;
+    font-family:"Slabo 27px", serif;
+    font-size:18px;
+    text-shadow: 7px 7px 7px black;
+
+}
+.languageLogos img{
+    width:7vw;
+    height:8vh;
 }

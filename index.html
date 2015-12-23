@@ -2,30 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Slabo+27px">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
 
-    <title>Nicole Fisher</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+    <title>Nicole Fisher Portfolio</title>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
@@ -45,14 +31,13 @@
 
     <!-- Three columns of text below the carousel -->
     <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4" id="aboutme">
             <img class="img-circle" src="images/me.jpg" alt="Picture of Nicole Fisher" width="140" height="140">
             <h2>Developer</h2>
             <p>As a teaching assistant at UC Davis for a course in "Technology in Computers", I was first introduced to
-                coding.The program that we used was SeaMonkey Composer, a user friendly HTML editor. We used this
-                program to create a personal website for each student. After graduating college, coding came back into
-                my life after my sister went to Dev Bootcamp in San Francisco. She has inspired me to become a developer
-                and I'm so excited to be following in her footsteps. </p>
+                coding by teaching students how to create personal websites for themselves. After graduating college,
+                coding came back into my life after my sister went to Dev Bootcamp in San Francisco. She has inspired me
+                to become a developer and I'm so excited to be following in her footsteps. </p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
             <img class="img-circle" src="images/Dreamer.jpg" alt="Generic placeholder image" width="140" height="140">
@@ -67,17 +52,24 @@
         <div class="col-lg-4">
             <img class="img-circle" src="images/DisneyLover.jpg" alt="Generic placeholder image" width="140" height="140">
             <h2>Disney Lover</h2>
-            <p>To say I love Disneyland would be an understatement. Since </p>
+            <p>To say I love Disneyland would be an understatement. Since I was 3 years old, there has been a tradition
+            for my family and I to go to Disneyland every New Year's day. I've been a passholder for 8 years and have
+            been to the parks over 200 times. My passion for Disney shows through some of my projects so don't be
+            surprised if you find yourself looking at a Disney/Pixar movie!</p>
         </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
-
     <hr class="featurette-divider">
 
     <div class="row featurette">
         <div class="col-md-7">
             <h2 class="featurette-heading">Cars Cafe <span class="text-muted">Ka-Chow!</span></h2>
-            <p class="lead">Cars Cafe is a game of memory! Help Sheriff round up the cars of Radiator Springs by matching
+            <p class="lead">Cars Cafe is a game of memory! Help Sheriff round up the cars of Radiator Springs by finding
+                all the matches so the cars can help you win the Piston Cup!
             </p>
+            <div class="languageLogos">
+                <img src="images/frontend.png">
+                <img src="images/jQuery.gif">
+            </div>
         </div>
         <div class="col-md-5">
             <img class="featurette-image img-responsive center-block" img src="images/CarsCafe.png" alt="Generic placeholder image">
@@ -88,8 +80,10 @@
 
     <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-            <h2 class="featurette-heading">Tic-Tac-Wars <span class="text-muted">May the force be with you</span></h2>
-            <p class="lead">Tic-Tac-Wars</p>
+            <h2 class="featurette-heading">Tic-Tac-Wars <span class="text-muted">May The Force Be With You</span></h2>
+            <p class="lead">Tic-Tac-Wars is a classic game of Tic-Tac-Toe but with a twist. Use the force as the dark side
+                has taken over the gameboard.
+            </p>
         </div>
         <div class="col-md-5 col-md-pull-7">
             <img class="featurette-image img-responsive center-block" img src="images/TicTacWars.png" alt="Generic placeholder image">
@@ -101,7 +95,9 @@
     <div class="row featurette">
         <div class="col-md-7">
             <h2 class="featurette-heading">Just Married <span class="text-muted">Final Project</span></h2>
-            <p class="lead">"Final Project</p>
+            <p class="lead">A platform for past brides to share their weddings to give inspiration to current brides
+                planning their weddings. Who needs David Tutera?
+            </p>
         </div>
         <div class="col-md-5">
             <img class="featurette-image img-responsive center-block" img src="images/JustMarried.png" alt="Generic placeholder image">
@@ -112,8 +108,13 @@
 
     <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-            <h2 class="featurette-heading">More Projects <span class="text-muted"></span></h2>
-            <p class="lead">More Projects</p>
+            <h2 class="featurette-heading">More Projects <span class="text-muted">More Awesome</span></h2>
+            <p class="lead">BlogLog is blog where users can register and login to post blogs.</p>
+            <p class="lead">Student Grade Table allows teachers to have their own database of students. Teachers can add,
+            delete, and sort students by name, course, or grade.</p>
+            <p class="lead">Eyebrows aren't the only things on fleek. Tweet on Fleek allows users to vote what tweets
+            reigns supreme!</p>
+
         </div>
         <div class="col-md-5 col-md-pull-7">
             <div class="container">
@@ -133,21 +134,37 @@
                             <img src="images/TweetFleak.png" alt="Tweet on Fleek" width="460" height="345">
                         </div>
                     </div>
-            </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
 <hr class="featurette-divider">
 <!-- /END THE FEATURETTES -->
 
 
 <!-- FOOTER -->
-<footer>
+<!--<footer>-->
+    <!--<div id="footer">-->
+        <!--<h3 id="contactme">Contact Me</h3>-->
+        <!--<form action="http://learningfuze.com/echo.php" method="post">-->
+            <!--<input type="text" name="Name" placeholder="Name"><br>-->
+            <!--<input type="text" name="Email" placeholder="email"><br>-->
+            <!--<textarea rows="12" cols="18" name="message" placeholder="Message"></textarea><br>-->
+            <!--<input type="submit" name="Submit" value="Submit">-->
+        <!--</form>-->
+        <!--<br>-->
+        <!--<br>-->
+        <!--<ul id="footerlist">-->
+            <!--<li><a href="https://github.com/nfisher620">GitHub Account</a></li>-->
+            <!--<li>Email: ncspence4@gmail.com</li>-->
+            <!--<li><a href="https://www.linkedin.com/in/nspence620">LinkedIn</a></li>-->
+        <!--</ul>-->
+    <!--</div>-->
     <p class="pull-right"><a href="#">Back to top</a></p>
-</footer>
+    <h2>"All of our dreams can come true if we have the courage to pursue them" </h2>
+        <p> - Walt Disney</p>
+<!--</footer>-->
 
 </body>
 </html>
