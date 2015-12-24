@@ -226,18 +226,6 @@ footer{
     65% {-moz-transform:translate(0, 15px);}
     to {-moz-transform: translate(0, -0px);}
 }
-
-.img-circle:hover{
-    display: inline-block;
-    position: absolute;
-    cursor: pointer;
-    left: 0px;
-    top: 100%;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, .4);
-    text-align: center;
-}
 .quote{
     bottom:7vh;
     position:relative;
