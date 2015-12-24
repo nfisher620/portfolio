@@ -239,11 +239,12 @@ footer{
     bottom:34vh;
     position:relative;
 }
-.moreProjectsLink {
+.moreProjectsLink{
     font-family: sans-serif;
     font-size: 20px;
     line-height: 1.42857143;
     color: #5a5a5a;
+    padding-left:0;
 }
 .modalIcons{
     top:2vh;
@@ -254,9 +255,10 @@ footer{
     position:relative;
 }
 .triangle{
-    top:-2vh;
+    top:-33vh;
     position:relative;
 }
+/* CSS for Project Sections */
 .StarWars{
     margin-top:9vh;
 }
@@ -265,4 +267,7 @@ footer{
 }
 .JustMarried{
     margin-top:19vh;
+}
+.MoreProjects{
+    margin-top:6vh;
 }
