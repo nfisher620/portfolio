@@ -1,6 +1,11 @@
 html{
     background-color:black;
 }
+body {
+    color: #5a5a5a;
+    background-color:black;
+}
+/* Top Section of page */
 header{
     background-image:url("images/AndyKing0010.jpg");
     background-position: center;
@@ -9,6 +14,7 @@ header{
     background-size:100%;
     display:inline-block;
 }
+/* Nicole Fisher */
 h1{
     font-size:4em;
     color:white;
@@ -20,6 +26,8 @@ h1{
     font-family:"Slabo 27px", serif;
     text-shadow: 7px 7px 7px black;
 }
+
+/* Tag line below Nicole Fisher */
 header p{
     text-align:center;
     color:white;
@@ -29,6 +37,7 @@ header p{
     font-family:"Slabo 27px",serif;
     text-shadow: 7px 7px 7px black;
 }
+/* Navbar Links*/
 .navbar li, a{
     list-style-type: none;
     color:white;
@@ -50,14 +59,7 @@ a:hover{
     text-decoration:none;
     cursor:pointer;
 }
-body {
-    color: #5a5a5a;
-    background-color:black;
-}
-
-
-/* MARKETING CONTENT
--------------------------------------------------- */
+/* End of Navbar */
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
@@ -73,81 +75,17 @@ body {
     margin-left: 10px;
 }
 
-
-/* Featurettes
-------------------------- */
+/* Featurettes */
 
 .featurette-divider {
-    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    margin: 80px 0;
 }
-
-/* Thin out the marketing headings */
 .featurette-heading {
     font-weight: 300;
     line-height: 1;
     letter-spacing: -1px;
 }
-
-
-/* RESPONSIVE CSS
--------------------------------------------------- */
-
-@media (min-width: 768px) {
-    /* Navbar positioning foo */
-    .navbar-wrapper {
-        margin-top: 20px;
-    }
-    .navbar-wrapper .container {
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-    .navbar-wrapper .navbar {
-        padding-right: 0;
-        padding-left: 0;
-    }
-
-    .navbar-wrapper .navbar {
-        border-radius: 4px;
-    }
-
-    /* Bump up size of carousel content */
-    .carousel-caption p {
-        margin-bottom: 20px;
-        font-size: 21px;
-        line-height: 1.4;
-    }
-
-    .featurette-heading {
-        font-size: 50px;
-    }
-}
-
-@media (min-width: 992px) {
-    .featurette-heading {
-        margin-top: 13vh;
-    }
-}
-.row{
-    margin-top:10vh;
-}
-.text-muted{
-    font-size:.7em;
-}
-.carousel{
-    width:35vw;
-}
-footer{
-    text-align:center;
-    color:white;
-    position:relative;
-    top:25vh;
-    font-size:20px;
-    text-shadow: 7px 7px 7px black;
-}
-.languageLogos img{
-    width:7vw;
-    height:8vh;
-}
+/* CSS for Modal for Contact Me */
 .modal-body {
     position: relative;
     padding: 15px;
@@ -184,6 +122,13 @@ footer{
     border-top: 1px solid #e5e5e5;
     background-color: black;
 }
+.modalIcons{
+    top:2vh;
+    margin-right:2vw;
+}
+/* End of Modal */
+
+
 .btn-default {
     color: #333;
     background-color: grey;
@@ -226,11 +171,6 @@ footer{
     65% {-moz-transform:translate(0, 15px);}
     to {-moz-transform: translate(0, -0px);}
 }
-.quote{
-    bottom:7vh;
-    position:relative;
-    text-align:center;
-}
 .moreProjectsLink{
     font-family: sans-serif;
     font-size: 20px;
@@ -238,9 +178,12 @@ footer{
     color: #5a5a5a;
     padding-left:0;
 }
-.modalIcons{
-    top:2vh;
-    margin-right:2vw;
+
+/* CSS for Footer Section */
+.quote{
+    bottom:7vh;
+    position:relative;
+    text-align:center;
 }
 .WaltDisney {
     bottom: 6vh;
@@ -254,6 +197,8 @@ footer{
     position:relative;
     left:38vw;
 }
+/* End of Footer */
+
 /* CSS for Project Sections */
 .StarWars{
     margin-top:9vh;
@@ -266,4 +211,56 @@ footer{
 }
 .MoreProjects{
     margin-top:6vh;
+}
+
+/* End of Project Sections */
+
+/* RESPONSIVE CSS */
+
+@media (min-width: 768px) {
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 20px;
+    }
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top: 13vh;
+    }
+}
+.row{
+    margin-top:10vh;
+}
+.text-muted{
+    font-size:.7em;
+}
+.carousel{
+    width:35vw;
+}
+.languageLogos img {
+    width: 7vw;
+    height: 8vh;
 }
