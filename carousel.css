@@ -48,6 +48,7 @@ header p{
 a:hover{
     color:lightblue;
     text-decoration:none;
+    cursor:pointer;
 }
 
 body {
@@ -138,27 +139,13 @@ body {
 .carousel{
     width:35vw;
 }
-#footer{
-    background-image:url("images/AndyKing0006.jpg");
-    background-position: center;
-    width:100%;
-    height:100%;
-    color:black;
-    font-size:15px;
-    padding:20px;
-    border-top:10px solid black;
-    font-family:tahoma;
+footer{
     text-align:center;
-}
-#footerlist li{
-    color:black;
-    text-align:center;
-    display:inline;
-    margin:10px;
-    font-family:"Slabo 27px", serif;
-    font-size:18px;
+    color:white;
+    position:relative;
+    top:25vh;
+    font-size:20px;
     text-shadow: 7px 7px 7px black;
-
 }
 .languageLogos img{
     width:7vw;
@@ -181,13 +168,44 @@ body {
     line-height: 1.3333333;
     border-radius: 6px;
 }
-.btn-info {
-    background-color: transparent;
-    border:none;
-    top:-.3vh;
-    position:relative;
+.glyphicon {
+    font-size: 7vh;
+    top:26vh;
 }
-.btn-info:hover{
-    background-color:transparent;
-    color:lightblue;
+.floating{
+    -webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+
+}
+
+@-webkit-keyframes Floatingx{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 15px);}
+    to {-webkit-transform: translate(0, -0px);    }
+}
+
+@-moz-keyframes Floating{
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 15px);}
+    to {-moz-transform: translate(0, -0px);}
+}
+
+.img-circle:hover{
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    left: 0px;
+    top: 100%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    text-align: center;
 }
