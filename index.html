@@ -19,14 +19,37 @@
 <header>
     <ul class="navbar">
         <li><a href="#aboutme">About Me</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#contactme">Contact Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Contact Me</button></li>
     </ul>
     <h1>Nicole Fisher</h1>
     <p>Developer - California Dreamer - Disney Lover</p>
 </header>
 <body>
+
+<div class="container">
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Contact Me</h4>
+                </div>
+                <div class="modal-body">
+                    <p>.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
 <div class="container marketing">
 
     <!-- Three columns of text below the carousel -->
@@ -37,7 +60,9 @@
             <p>As a teaching assistant at UC Davis for a course in "Technology in Computers", I was first introduced to
                 coding by teaching students how to create personal websites for themselves. After graduating college,
                 coding came back into my life after my sister went to Dev Bootcamp in San Francisco. She has inspired me
-                to become a developer and I'm so excited to be following in her footsteps. </p>
+                to become a developer and I'm so excited to be following in her footsteps. With the support of my husband
+                and family I went through a 13 week bootcamp at LearningFuze. I am beyond excited to start working as a
+                front-end developer!</p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
             <img class="img-circle" src="images/Dreamer.jpg" alt="Generic placeholder image" width="140" height="140">
@@ -55,21 +80,21 @@
             <p>To say I love Disneyland would be an understatement. Since I was 3 years old, there has been a tradition
             for my family and I to go to Disneyland every New Year's day. I've been a passholder for 8 years and have
             been to the parks over 200 times. My passion for Disney shows through some of my projects so don't be
-            surprised if you find yourself looking at a Disney/Pixar movie!</p>
+            surprised if you find yourself looking at a Disney/Pixar movie themed project!</p>
         </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
     <hr class="featurette-divider">
 
-    <div class="row featurette">
+    <div class="row featurette" id="projects">
         <div class="col-md-7">
             <h2 class="featurette-heading">Cars Cafe <span class="text-muted">Ka-Chow!</span></h2>
             <p class="lead">Cars Cafe is a game of memory! Help Sheriff round up the cars of Radiator Springs by finding
                 all the matches so the cars can help you win the Piston Cup!
             </p>
-            <div class="languageLogos">
-                <img src="images/frontend.png">
-                <img src="images/jQuery.gif">
-            </div>
+            <!--<div class="languageLogos">-->
+                <!--<img src="images/frontend.png">-->
+                <!--<img src="images/jQuery.gif">-->
+            <!--</div>-->
         </div>
         <div class="col-md-5">
             <img class="featurette-image img-responsive center-block" img src="images/CarsCafe.png" alt="Generic placeholder image">
@@ -110,9 +135,8 @@
         <div class="col-md-7 col-md-push-5">
             <h2 class="featurette-heading">More Projects <span class="text-muted">More Awesome</span></h2>
             <p class="lead">BlogLog is blog where users can register and login to post blogs.</p>
-            <p class="lead">Student Grade Table allows teachers to have their own database of students. Teachers can add,
-            delete, and sort students by name, course, or grade.</p>
-            <p class="lead">Eyebrows aren't the only things on fleek. Tweet on Fleek allows users to vote what tweets
+            <p class="lead">Student Grade Table allows teachers add, delete, and sort their own database of students.</p>
+            <p class="lead">Tweet on Fleek allows users to vote what tweets
             reigns supreme!</p>
 
         </div>
@@ -161,7 +185,7 @@
             <!--<li><a href="https://www.linkedin.com/in/nspence620">LinkedIn</a></li>-->
         <!--</ul>-->
     <!--</div>-->
-    <p class="pull-right"><a href="#">Back to top</a></p>
+    <p class="pull-right"><a href="#"><span class="glyphicon glyphicon-triangle-top"></span></a></p>
     <h2>"All of our dreams can come true if we have the courage to pursue them" </h2>
         <p> - Walt Disney</p>
 <!--</footer>-->

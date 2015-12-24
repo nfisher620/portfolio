@@ -164,3 +164,30 @@ body {
     width:7vw;
     height:8vh;
 }
+.modal-body {
+    position: relative;
+    padding: 15px;
+    background-color: black;
+}
+.modal-header {
+    min-height: 16.43px;
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: black;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 20px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.btn-info {
+    background-color: transparent;
+    border:none;
+    top:-.3vh;
+    position:relative;
+}
+.btn-info:hover{
+    background-color:transparent;
+    color:lightblue;
+}

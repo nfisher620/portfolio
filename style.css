@@ -86,27 +86,14 @@ p{
     padding-bottom:5px;
     margin-bottom:0px;
 }
-#skillslist li{
-    color:white;
-    text-align:center;
-    list-style-type:none;
-    font-size:20px;
-    text-shadow: 7px 7px 7px black;
-    font-family: arial;
-    position:relative;
-    top:20px;
-}
-#skills{
+
+#projects{
     background-image:url("images/AndyKing0584.jpg");
     background-position: center;
     width:100%;
     height:350px;
     background-size:100%;
     display:inline-block;
-}
-#skills h2{
-    text-shadow: 7px 7px 7px black;
-    color:white;
 }
 #experiencelist{
     color:black;
