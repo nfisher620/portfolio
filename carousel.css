@@ -41,18 +41,16 @@ header p{
 }
 .navbar{
     position:absolute;
-    top:0px;
-    right:0px;
-    margin:20px;
+    top:-2vh;
+    right:2vw;
+    margin-top:4vh;
 }
 a:hover{
     color:lightblue;
     text-decoration:none;
     cursor:pointer;
 }
-
 body {
-    padding-bottom: 40px;
     color: #5a5a5a;
     background-color:black;
 }
@@ -155,10 +153,15 @@ footer{
     padding: 15px;
     background-color: black;
 }
-.modal-body p{
-    text-align:center;
-    position:relative;
-    font-size:16px;
+.modal-body p {
+    text-align: center;
+    position: relative;
+    font-size: 2em;
+}
+.modal-body p:nth-child(2) {
+    text-align: center;
+    position: relative;
+    font-size: 2em;
 }
 .modal-header {
     min-height: 16.43px;
@@ -236,8 +239,9 @@ footer{
     text-align: center;
 }
 .quote{
-    bottom:34vh;
+    bottom:7vh;
     position:relative;
+    text-align:center;
 }
 .moreProjectsLink{
     font-family: sans-serif;
@@ -248,15 +252,19 @@ footer{
 }
 .modalIcons{
     top:2vh;
+    margin-right:2vw;
 }
-.WaltDisney{
-    bottom:35vh;
-    color:grey;
-    position:relative;
+.WaltDisney {
+    bottom: 6vh;
+    color: grey;
+    position: relative;
+    font-size: 1.5em;
+    text-align: center;
 }
 .triangle{
-    top:-33vh;
+    top:-11vh;
     position:relative;
+    left:38vw;
 }
 /* CSS for Project Sections */
 .StarWars{
