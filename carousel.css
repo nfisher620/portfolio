@@ -96,6 +96,10 @@ a:hover{
     position: relative;
     font-size: 2em;
 }
+.modal-body span{
+    position:relative;
+    top:2vh;
+}
 .modal-body p:nth-child(2) {
     text-align: center;
     position: relative;
@@ -201,16 +205,20 @@ a:hover{
 
 /* CSS for Project Sections */
 .StarWars{
-    margin-top:9vh;
+    position:relative;
+    margin-top:-4vh;
 }
 .Cars{
-    margin-top:16vh;
+    position:relative;
+    margin-top:1vh;
 }
 .JustMarried{
-    margin-top:19vh;
+    position:relative;
+    margin-top:5vh;
 }
 .MoreProjects{
-    margin-top:6vh;
+    position:relative;
+    margin-top:-7vh;
 }
 
 /* End of Project Sections */
