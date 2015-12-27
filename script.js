@@ -69,4 +69,3 @@ function buildProjectGallery() {
         container.append(projectDescContainer);
     }
 }
-
