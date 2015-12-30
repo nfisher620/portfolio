@@ -271,6 +271,7 @@ a:hover{
     width: 7vw;
     height: 8vh;
 }
+
 @media screen and (max-width:376px) {
     body {
         width: 100%;
@@ -281,12 +282,22 @@ a:hover{
         right: 10vw;
         margin-top: 4vh;
         width: 95vw;
-        background-color:yellow;
     }
     .navbar li a{
         padding:0px;
         text-align:center;
         font-size:15px;
+        position: relative;
+        left: 12vw;
+    }
+    .carousel {
+        width: 88vw;
+        left: -4vw;
+    }
+    .triangle {
+        top: -11vh;
+        position: relative;
+        left: 28vw;
     }
 }
 .projectImage{
