@@ -131,7 +131,12 @@ a:hover{
     margin-right:2vw;
 }
 /* End of Modal */
-
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    left: -3vw;
+}
 .btn-default {
     color: #333;
     background-color: grey;
@@ -217,13 +222,22 @@ a:hover{
 }
 .MoreProjects{
     position:relative;
-    margin-top:-7vh;
+    margin-top:-9vh;
 }
 
 /* End of Project Sections */
 
 /* RESPONSIVE CSS */
-
+@media (max-width: 993px) and (min-width:726px) {
+    .carousel-inner {
+        position: relative;
+        width: 703px;
+        overflow: hidden;
+    }
+    .triangle{
+        left:30vw;
+    }
+}
 @media (min-width: 768px) {
     /* Navbar positioning*/
     .navbar-wrapper {
@@ -251,12 +265,19 @@ a:hover{
     .featurette-heading {
         font-size: 50px;
     }
+    /*.carousel-inner {*/
+        /*position: relative;*/
+        /*width: 200%;*/
+        /*overflow: hidden;*/
+        /*left: 9vw;*/
+    /*}*/
 }
 
 @media (min-width: 992px) {
     .featurette-heading {
         margin-top: 13vh;
     }
+
 }
 .row{
     margin-top:10vh;
@@ -298,6 +319,7 @@ a:hover{
         top: -11vh;
         position: relative;
         left: 28vw;
+        margin: auto 0;
     }
 }
 .projectImage{
@@ -373,4 +395,13 @@ a:hover{
 #projectsTitle{
     margin-top:-6vh;
     margin-bottom:5vh;
+}
+@media only screen and (max-width: 1921px) and (min-width:1367px) {
+    #difficultyButton{
+        top:9vh;
+    }
+    #reset{
+        top:8vh;
+        left:-26vw;
+    }
 }
