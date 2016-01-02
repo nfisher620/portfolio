@@ -228,7 +228,7 @@ a:hover{
 /* End of Project Sections */
 
 /* RESPONSIVE CSS */
-@media (max-width: 993px) and (min-width:726px) {
+@media (max-width: 993px) and (min-width:728px) {
     .carousel-inner {
         position: relative;
         width: 703px;
@@ -238,6 +238,19 @@ a:hover{
         left:30vw;
     }
 }
+@media (max-width: 727px) and (min-width:0px) {
+    .carousel-inner {
+        position: relative;
+        width: 95vw;
+        overflow: hidden;
+        left: -5vw;
+    }
+    .triangle{
+        left:37vw;
+    }
+}
+
+
 @media (min-width: 768px) {
     /* Navbar positioning*/
     .navbar-wrapper {
