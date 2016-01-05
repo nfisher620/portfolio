@@ -416,11 +416,22 @@ a:hover{
     margin-bottom:5vh;
 }
 @media only screen and (max-width: 1921px) and (min-width:1367px) {
-    #difficultyButton{
-        top:9vh;
+    #difficultyButton {
+        top: 9vh;
     }
-    #reset{
-        top:8vh;
-        left:-26vw;
+
+    #reset {
+        top: 8vh;
+        left: -26vw;
+    }
+
+    .featurette-heading {
+        margin-top: 8vh;
+    }
+    .carousel-inner {
+        position: relative;
+        width: 64%;
+        overflow: hidden;
+        left:0vw;
     }
 }
