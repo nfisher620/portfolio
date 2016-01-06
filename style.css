@@ -434,4 +434,14 @@ a:hover{
         overflow: hidden;
         left:0vw;
     }
+    .triangle {
+        left: 26vw;
+        top:-10vh;
+    }
+    .quote{
+        bottom:3vh;
+    }
+    .WaltDisney{
+        bottom:3vh;
+    }
 }
