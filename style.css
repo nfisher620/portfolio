@@ -1,67 +1,74 @@
-html{
-    background-color:black;
+html {
+    background-color: black;
 }
+
 body {
     color: #5a5a5a;
-    background-color:black;
+    background-color: black;
 }
+
 /* Top Section of page */
-header{
-    background-image:url("images/AndyKing0010.jpg");
+header {
+    background-image: url("images/AndyKing0010.jpg");
     /*background-position: center;*/
-    background-size:cover;
+    background-size: cover;
     no-repeat: center center fixed;
-    width:100%;
-    height:91vh;
+    width: 100%;
+    height: 91vh;
     /*background-size:100%;*/
-    display:inline-block;
+    display: inline-block;
 }
+
 /* Nicole Fisher */
-h1{
-    font-size:4em;
-    color:white;
+h1 {
+    font-size: 4em;
+    color: white;
     border-top: 5px solid white;
-    border-bottom:5px solid white;
-    text-align:center;
-    position:relative;
-    top:32vh;
-    font-family:"Slabo 27px", serif;
+    border-bottom: 5px solid white;
+    text-align: center;
+    position: relative;
+    top: 32vh;
+    font-family: "Slabo 27px", serif;
     text-shadow: 7px 7px 7px black;
 }
 
 /* Tag line below Nicole Fisher */
-header p{
-    text-align:center;
-    color:white;
-    position:relative;
-    top:34vh;
-    font-size:25px;
-    font-family:"Slabo 27px",serif;
+header p {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 34vh;
+    font-size: 25px;
+    font-family: "Slabo 27px", serif;
     text-shadow: 7px 7px 7px black;
 }
+
 /* Navbar Links*/
-.navbar li, a{
+.navbar li, a {
     list-style-type: none;
-    color:white;
-    display:inline-block;
-    background-color:transparent;
-    padding-left:15px;
-    text-decoration:none;
-    font-family:"Slabo 27px", serif;
-    font-size:1.2em;
+    color: white;
+    display: inline-block;
+    background-color: transparent;
+    padding-left: 15px;
+    text-decoration: none;
+    font-family: "Slabo 27px", serif;
+    font-size: 1.2em;
     text-shadow: 2px 2px 2px black;
 }
-.navbar{
-    position:absolute;
-    top:-2vh;
-    right:2vw;
-    margin-top:4vh;
+
+.navbar {
+    position: absolute;
+    top: -2vh;
+    right: 2vw;
+    margin-top: 4vh;
 }
-a:hover{
-    color:lightblue;
-    text-decoration:none;
-    cursor:pointer;
+
+a:hover {
+    color: lightblue;
+    text-decoration: none;
+    cursor: pointer;
 }
+
 /* End of Navbar */
 
 /* Center align the text within the three columns below the carousel */
@@ -69,10 +76,12 @@ a:hover{
     margin-bottom: 20px;
     text-align: center;
 }
+
 .marketing h2 {
     font-weight: normal;
-    color:white;
+    color: white;
 }
+
 .marketing .col-lg-4 p {
     margin-right: 10px;
     margin-left: 10px;
@@ -83,37 +92,44 @@ a:hover{
 .featurette-divider {
     margin: 80px 0;
 }
+
 .featurette-heading {
     font-weight: 300;
     line-height: 1;
     letter-spacing: -1px;
 }
+
 /* CSS for Modal for Contact Me */
 .modal-body {
     position: relative;
     padding: 15px;
     background-color: black;
 }
+
 .modal-body p {
     text-align: center;
     position: relative;
     font-size: 2em;
 }
-.modal-body span{
-    position:relative;
-    top:2vh;
+
+.modal-body span {
+    position: relative;
+    top: 2vh;
 }
+
 .modal-body p:nth-child(2) {
     text-align: center;
     position: relative;
     font-size: 2em;
 }
+
 .modal-header {
     min-height: 16.43px;
     padding: 15px;
     border-bottom: 1px solid #e5e5e5;
     background-color: black;
 }
+
 .modal-title {
     margin: 0;
     line-height: 1.42857143;
@@ -123,16 +139,19 @@ a:hover{
     color: white;
     text-shadow: 2px 2px gray;
 }
+
 .modal-footer {
     padding: 15px;
     text-align: right;
     border-top: 1px solid #e5e5e5;
     background-color: black;
 }
-.modalIcons{
-    top:2vh;
-    margin-right:2vw;
+
+.modalIcons {
+    top: 2vh;
+    margin-right: 2vw;
 }
+
 /* End of Modal */
 .carousel-inner {
     position: relative;
@@ -140,24 +159,28 @@ a:hover{
     overflow: hidden;
     left: -3vw;
 }
+
 .btn-default {
     color: #333;
     background-color: grey;
     border-color: black;
     font-weight: bold;
-    font-family: "Slabo 27px",serif;
+    font-family: "Slabo 27px", serif;
 }
-.btn-group-lg>.btn, .btn-lg {
+
+.btn-group-lg > .btn, .btn-lg {
     padding: 10px 16px;
     font-size: 20px;
     line-height: 1.3333333;
     border-radius: 6px;
 }
+
 .glyphicon {
     font-size: 7vh;
-    top:21vh;
+    top: 21vh;
 }
-.floating{
+
+.floating {
     -webkit-animation-name: Floatingx;
     -webkit-animation-duration: 3s;
     -webkit-animation-iteration-count: infinite;
@@ -171,50 +194,73 @@ a:hover{
 
 }
 
-@-webkit-keyframes Floatingx{
-    from {-webkit-transform:translate(0, 0px);}
-    65% {-webkit-transform:translate(0, 15px);}
-    to {-webkit-transform: translate(0, -0px);    }
+@-webkit-keyframes Floatingx {
+    from {
+        -webkit-transform: translate(0, 0px);
+    }
+    65% {
+        -webkit-transform: translate(0, 15px);
+    }
+    to {
+        -webkit-transform: translate(0, -0px);
+    }
 }
 
-@-moz-keyframes Floating{
-    from {-moz-transform:translate(0, 0px);}
-    65% {-moz-transform:translate(0, 15px);}
-    to {-moz-transform: translate(0, -0px);}
+@-moz-keyframes Floating {
+    from {
+        -moz-transform: translate(0, 0px);
+    }
+    65% {
+        -moz-transform: translate(0, 15px);
+    }
+    to {
+        -moz-transform: translate(0, -0px);
+    }
 }
-.moreProjectsLink{
+
+.moreProjectsLink {
     font-family: sans-serif;
     font-size: 20px;
     line-height: 1.42857143;
     color: #5a5a5a;
-    padding-left:0;
+    padding-left: 0;
 }
 
 /* Skills Section */
-.glyphicon-thumbs-up{
-    font-size:35px;
-    top:0vh;
+.glyphicon-star-empty {
+
+    font-size: 35px;
+    top: 0vh;
 }
-.skills{
+
+.glyphicon-star {
+    font-size: 35px;
+    top: 0vh;
+}
+
+.skills {
     text-align: center;
 }
-.skills p{
-    color:white;
+
+.skills p {
+    color: white;
     font-size: 25px;
 }
-.skills div{
-    width:29vw;
-    height:31vh;
-    display:inline-block;
+
+.skills div {
+    width: 29vw;
+    height: 31vh;
+    display: inline-block;
     text-align: center;
 }
 
 /* CSS for Footer Section */
-.quote{
-    bottom:4vh;
-    position:relative;
-    text-align:center;
+.quote {
+    bottom: 4vh;
+    position: relative;
+    text-align: center;
 }
+
 .WaltDisney {
     bottom: 3vh;
     color: grey;
@@ -222,84 +268,98 @@ a:hover{
     font-size: 1.5em;
     text-align: center;
 }
-.triangle{
-    top:-14vh;
-    position:absolute;
-    left:38vw;
+
+.triangle {
+    top: -14vh;
+    position: absolute;
+    left: 38vw;
 }
-.triangleContainer{
-    position:relative;
+
+.triangleContainer {
+    position: relative;
 }
-.footerLinks{
+
+.footerLinks {
     text-align: center;
 }
-.footerLinks a{
-    color:grey;
+
+.footerLinks a {
+    color: grey;
     font-family: "Helvetica Neue", "arial", helvetica, sans-serif;
 }
-.footerLinks span:hover{
-    color:white;
+
+.footerLinks span:hover {
+    color: white;
 }
-.footerLinks span{
-    color:grey;
-    top:2vh;
-    font-size:36px;
+
+.footerLinks span {
+    color: grey;
+    top: 2vh;
+    font-size: 36px;
 }
+
 /* End of Footer */
 
 /* CSS for Project Sections */
-.StarWars{
-    position:relative;
-    margin-top:-4vh;
+.StarWars {
+    position: relative;
+    margin-top: -4vh;
 }
-.Cars{
-    position:relative;
-    margin-top:1vh;
+
+.Cars {
+    position: relative;
+    margin-top: 1vh;
 }
-.JustMarried{
-    position:relative;
-    margin-top:5vh;
+
+.JustMarried {
+    position: relative;
+    margin-top: 5vh;
 }
-.MoreProjects{
-    position:relative;
-    margin-top:-3vh;
+
+.MoreProjects {
+    position: relative;
+    margin-top: -3vh;
 }
 
 /* End of Project Sections */
 
 /* RESPONSIVE CSS */
-@media (max-width: 993px) and (min-width:728px) {
+@media (max-width: 993px) and (min-width: 728px) {
     .carousel-inner {
         position: relative;
         width: 703px;
         overflow: hidden;
     }
-    .triangle{
-        left:30vw;
+
+    .triangle {
+        left: 30vw;
     }
 }
-@media (max-width: 727px) and (min-width:0px) {
+
+@media (max-width: 727px) and (min-width: 0px) {
     .carousel-inner {
         position: relative;
         width: 95vw;
         overflow: hidden;
         left: -5vw;
     }
-    .triangle{
-        left:37vw;
+
+    .triangle {
+        left: 37vw;
     }
 }
-
 
 @media (min-width: 768px) {
     /* Navbar positioning*/
     .navbar-wrapper {
         margin-top: 20px;
     }
+
     .navbar-wrapper .container {
         padding-right: 15px;
         padding-left: 15px;
     }
+
     .navbar-wrapper .navbar {
         padding-right: 0;
         padding-left: 0;
@@ -318,11 +378,12 @@ a:hover{
     .featurette-heading {
         font-size: 50px;
     }
+
     /*.carousel-inner {*/
-        /*position: relative;*/
-        /*width: 200%;*/
-        /*overflow: hidden;*/
-        /*left: 9vw;*/
+    /*position: relative;*/
+    /*width: 200%;*/
+    /*overflow: hidden;*/
+    /*left: 9vw;*/
     /*}*/
 }
 
@@ -332,81 +393,101 @@ a:hover{
     }
 
 }
-.row{
-    margin-top:10vh;
+
+.row {
+    margin-top: 10vh;
 }
-.text-muted{
-    font-size:.7em;
+
+.text-muted {
+    font-size: .7em;
 }
-.carousel{
-    width:35vw;
+
+.carousel {
+    width: 35vw;
 }
+
 .languageLogos img {
     width: 7vw;
     height: 8vh;
 }
 
-@media screen and (max-width:376px) {
+@media screen and (max-width: 376px) {
     body {
         width: 100%;
     }
-    .navbar{
+
+    .navbar {
         position: absolute;
         top: -2vh;
         right: 10vw;
         margin-top: 4vh;
         width: 95vw;
     }
-    .navbar li a{
-        padding:0px;
-        text-align:center;
-        font-size:15px;
+
+    .navbar li a {
+        padding: 0px;
+        text-align: center;
+        font-size: 15px;
         position: relative;
         left: 12vw;
     }
+
     .carousel {
         width: 88vw;
         left: -4vw;
     }
+
     .triangle {
         top: -11vh;
         position: relative;
         left: 28vw;
         margin: auto 0;
     }
-    .glyphicon-thumbs-up{
-        font-size:15px;
+
+    .glyphicon-star-empty {
+
+        font-size: 15px;
     }
-    .skills p{
-        font-size:1em;
+
+    .glyphicon-star {
+        font-size: 15px;
     }
+
+    .skills p {
+        font-size: 1em;
+    }
+
 }
-.projectImage{
-    text-align:center;
+
+.projectImage {
+    text-align: center;
     height: 30vh;
-    width:20vw;
-    border:4px solid black;
-    display:inline-block;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:5px;
+    width: 20vw;
+    border: 4px solid black;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
 }
-.projects{
+
+.projects {
     position: relative;
     background-color: black;
     width: 181vh;
     height: 56vh;
 }
+
 .img-container {
-    position:relative;
-    display:inline-block;
+    position: relative;
+    display: inline-block;
     margin: 3vw 7vw -1vw 3vw;
     left: 4vw;
-    width:25%;
+    width: 25%;
     height: 30vh;
     overflow: hidden;
     padding: 20px;
 }
+
 .gallery-img {
     position: absolute;
     top: 50%;
@@ -415,6 +496,7 @@ a:hover{
     height: 100%;
     width: 100%;
 }
+
 .text-cover {
     display: inline-block;
     position: absolute;
@@ -426,7 +508,8 @@ a:hover{
     background-color: rgba(0, 0, 0, .4);
     text-align: center;
 }
-.img-container:hover .text-cover{
+
+.img-container:hover .text-cover {
     display: block;
     top: 0px;
     left: 0px;
@@ -436,27 +519,30 @@ a:hover{
     position: relative;
     top: 50%;
     color: white;
-    font-size:3em;
+    font-size: 3em;
     font-family: 'Slabo 27px', serif;
     transform: translateY(-50%);
 }
-.description{
-    color:white;
+
+.description {
+    color: white;
 }
-.section{
-    position:relative;
+
+.section {
+    position: relative;
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;
-    font-family: "Slabo 27px",sans-serif;
-    margin-top:9vh;
-}
-#projectsTitle{
-    margin-top:-6vh;
-    margin-bottom:5vh;
+    font-family: "Slabo 27px", sans-serif;
+    margin-top: 9vh;
 }
 
-@media only screen and (max-width: 1921px) and (min-width:1367px) {
+#projectsTitle {
+    margin-top: -6vh;
+    margin-bottom: 5vh;
+}
+
+@media only screen and (max-width: 1921px) and (min-width: 1367px) {
     #difficultyButton {
         top: 9vh;
     }
@@ -469,20 +555,24 @@ a:hover{
     .featurette-heading {
         margin-top: 8vh;
     }
+
     .carousel-inner {
         position: relative;
         width: 64%;
         overflow: hidden;
-        left:0vw;
+        left: 0vw;
     }
+
     .triangle {
         left: 26vw;
-        top:-10vh;
+        top: -10vh;
     }
-    .quote{
-        bottom:3vh;
+
+    .quote {
+        bottom: 3vh;
     }
-    .WaltDisney{
-        bottom:3vh;
+
+    .WaltDisney {
+        bottom: 3vh;
     }
 }
