@@ -192,12 +192,12 @@ a:hover{
 
 /* CSS for Footer Section */
 .quote{
-    bottom:7vh;
+    bottom:4vh;
     position:relative;
     text-align:center;
 }
 .WaltDisney {
-    bottom: 6vh;
+    bottom: 3vh;
     color: grey;
     position: relative;
     font-size: 1.5em;
@@ -218,7 +218,7 @@ a:hover{
     color:grey;
     font-family: "Helvetica Neue", "arial", helvetica, sans-serif;
 }
-.footerLinks a:hover{
+.footerLinks span:hover{
     color:white;
 }
 .footerLinks span{
