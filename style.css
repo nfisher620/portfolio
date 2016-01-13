@@ -211,6 +211,9 @@ a:hover{
 .triangleContainer{
     position:relative;
 }
+.links{
+    text-align:center;
+}
 /* End of Footer */
 
 /* CSS for Project Sections */
