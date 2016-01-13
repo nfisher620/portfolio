@@ -190,6 +190,25 @@ a:hover{
     padding-left:0;
 }
 
+/* Skills Section */
+.glyphicon-thumbs-up{
+    font-size:35px;
+    top:0vh;
+}
+.skills{
+    text-align: center;
+}
+.skills p{
+    color:white;
+    font-size: 25px;
+}
+.skills div{
+    width:25vw;
+    height:31vh;
+    display:inline-block;
+    text-align: center;
+}
+
 /* CSS for Footer Section */
 .quote{
     bottom:4vh;
