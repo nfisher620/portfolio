@@ -211,8 +211,20 @@ a:hover{
 .triangleContainer{
     position:relative;
 }
-.links{
-    text-align:center;
+.footerLinks{
+    text-align: center;
+}
+.footerLinks a{
+    color:grey;
+    font-family: "Helvetica Neue", "arial", helvetica, sans-serif;
+}
+.footerLinks a:hover{
+    color:white;
+}
+.footerLinks span{
+    color:grey;
+    top:2vh;
+    font-size:2vw;
 }
 /* End of Footer */
 
