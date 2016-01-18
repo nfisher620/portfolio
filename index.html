@@ -3,276 +3,763 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Slabo+27px">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <title>Nicole Fisher Portfolio</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+    <!-- Favicons
+        ================================================== -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+    <!-- Slider
+        ================================================== -->
+    <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+    <link href="css/owl.theme.css" rel="stylesheet" media="screen">
+
+    <!-- Stylesheet
+        ================================================== -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <link href="style.css" rel="stylesheet">
-    <title>Nicole Fisher Portfolio</title>
 </head>
-<header>
-    <ul class="navbar">
-        <li><a href="#aboutme">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a data-toggle="modal" data-target="#myModal">Contact Me</a></li>
-    </ul>
-    <h1>Nicole Fisher</h1>
-
-    <p>Developer - California Dreamer - Disney Lover</p>
-
-    <p class="floating"><span class="glyphicon glyphicon-chevron-down"></span></p>
-</header>
 <body>
-
-<div class="container">
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Contact Me</h4>
-                </div>
-                <div class="modal-body">
-                    <p>
-                        <a href="https://github.com/nfisher620/" target="_blank"><span
-                                class="glyphicon glyphicon-download-alt modalIcons"></span></a>
-                        <a href="mailto:ncspence4@gmail.com"><span
-                                class="glyphicon glyphicon-envelope modalIcons"></span></a>
-                        <a href="https://www.linkedin.com/in/nspence620" target="_blank"><span
-                                class="glyphicon glyphicon-user modalIcons"></span></a>
-                    </p>
-
-                    <p>GitHub | Email | LinkedIn</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-
-        </div>
-    </div>
+<div id="preloader">
+    <div id="status"><img src="img/preloader.gif" height="64" width="64" alt=""></div>
 </div>
-<div class="container marketing">
-    <h2 class="section">About Me</h2>
+<!-- Navigation
+    ==========================================-->
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <!--<div class="navbar-header">-->
+        <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"-->
+        <!--data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span> <span-->
+        <!--class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>-->
+        <!--<a class="navbar-brand" href="index.html"><i class="fa fa-flag-checkered fa-flip-horizontal"></i>Nicole-->
+        <!--Fisher<strong></strong></a></div>-->
 
-    <div class="row">
-        <div class="col-lg-4" id="aboutme">
-            <img class="img-circle" src="images/me4.png" alt="Picture of Nicole Fisher" width="175" height="175">
-
-            <h2>Developer</h2>
-
-            <p>As a teaching assistant at UC Davis for a course in "Technology in Computers", I was first introduced to
-                coding by teaching students how to create personal websites for themselves. After graduating college,
-                coding came back into my life after my sister went to Dev Bootcamp in San Francisco. She has inspired me
-                to become a developer and I'm so excited to be following in her footsteps. With the support of my
-                husband
-                and family I went through a 13 week bootcamp at LearningFuze. I am beyond excited to start working as a
-                front-end developer!</p>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#home" class="page-scroll">Home</a></li>
+                <li><a href="#about" class="page-scroll">About</a></li>
+                <li><a href="#works-section" class="page-scroll">Projects</a></li>
+                <li><a href="#services-section" class="page-scroll">Skills</a></li>
+                <li><a href="#contact-section" class="page-scroll">Contact</a></li>
+            </ul>
         </div>
-        <div class="col-lg-4">
-            <img class="img-circle" src="images/bandg.png" alt="Picture of Nicole and her husband" width="175"
-                 height="175">
-
-            <h2>California Dreamer</h2>
-
-            <p>My name is Nicole and I was born and raised in Orange County, California. I graduated from the University
-                of California at Davis in 2011 with a Bachelor of Science degree in Managerial Economics. In June 2015,
-                I received a Business Analyst certificate from the University of California at Irvine. I am the youngest
-                daughter of a family of four. My older sister and my parents mean the world to me and have made me the
-                person I am today. I recently married the love of my life, Ben, this past summer in San Clemente. My
-                favorite things to do are spend time with my husband and family, go to Disneyland, and bake
-                desserts.</p>
-        </div>
-        <div class="col-lg-4">
-            <img class="img-circle" src="images/castle.png" alt="Picture of Sleeping Beauty at Disneyland" width="175"
-                 height="175">
-
-            <h2>Disney Lover</h2>
-
-            <p>To say I love Disneyland and anything Disney would be an understatement. Since I was 3 years old, there
-                has been a tradition for my family and I to go to Disneyland every New Year's day. I've been a
-                passholder for 8 years and have been to the parks over 200 times.. you definitely don't need a park map
-                when you're with me! Churros and Dole Whip are my favorite treats and my favorite ride is Indiana Jones.
-                My passion for Disney shows through some of my projects so don't be
-                surprised if you find yourself looking at a Disney/Pixar movie themed project!</p>
-        </div>
+        <!-- /.navbar-collapse -->
     </div>
-    <hr class="featurette-divider">
+    <!-- /.container-fluid -->
+</nav>
 
-    <div class="row featurette" id="projects">
-        <h2 class="section" id="projectsTitle">Projects</h2>
+<!-- Header -->
+<header class="text-center" name="home">
+    <div class="intro-text">
+        <h1 class="wow fadeInDown">Nicole<strong><span class="color">Fisher</span></strong></h1>
 
-        <div class="col-md-7 Cars">
-            <h2 class="featurette-heading">Cars Cafe <span class="text-muted">Ka-Chow!</span></h2>
-
-            <p class="lead">Cars Cafe is a game of memory! Help Sheriff round up the cars of Radiator Springs by finding
-                all the matches so the cars can help you win the Piston Cup!
-            </p>
+        <p class="wow fadeInDown">Developer - California Dreamer - Disney Lover</p>
+        <!--<a href="#works-section" class="btn btn-default btn-lg page-scroll wow fadeInUp" data-wow-delay="200ms">My-->
+        <!--Portfolio</a></div>-->
+</header>
+<div id="testimonials-section" class="text-center">
+    <div class="container" id="about">
+        <div class="section-title wow fadeInDown">
+            <h2>About<strong>Me</strong></h2>
+            <hr>
         </div>
-        <div class="col-md-5">
-            <a href="http://www.nicolecfisher.com/memory_match/" target="_blank"><img
-                    class="featurette-image img-responsive center-block" img src="images/CarsCafe.png"
-                    alt="Generic placeholder image"></a>
-        </div>
-    </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div id="testimonial" class="owl-carousel owl-theme wow fadeInUp" data-wow-delay="200ms">
+                    <div class="item">
+                        <div class="thumbnail"><img src="img/me4.png" alt="..." class="img-circle team-img">
 
-    <hr class="featurette-divider">
+                            <div class="caption">
+                                <h3>Developer</h3>
 
-    <div class="row featurette">
-        <div class="col-md-7 col-md-push-5 StarWars">
-            <h2 class="featurette-heading">Tic-Tac-Wars <span class="text-muted">May The Force Be With You</span></h2>
-
-            <p class="lead">Tic-Tac-Wars is a classic game of Tic-Tac-Toe but with a twist. Use the force to defeat the
-                dark side.
-            </p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-            <a href="http://www.nicolecfisher.com/hacka-tictactoe-athon/" target="_blank"><img
-                    class="featurette-image img-responsive center-block" img src="images/TicTacWars.png"
-                    alt="Tic-Tac-Wars"></a>
-        </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-        <div class="col-md-7 JustMarried">
-            <h2 class="featurette-heading">Just Married <span class="text-muted">Final Project</span></h2>
-
-            <p class="lead">A platform for past brides to share their weddings to give inspiration to current brides
-                planning their weddings. Who needs David Tutera?
-            </p>
-        </div>
-        <div class="col-md-5">
-            <a href="http://www.nicolecfisher.com/Just_Married/" target="_blank"><img
-                    class="featurette-image img-responsive center-block" img src="images/JustMarried.png"
-                    alt="Generic placeholder image"></a>
-        </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-        <div class="col-md-7 col-md-push-5 MoreProjects">
-            <h2 class="featurette-heading ">More Projects <span class="text-muted">More Awesome</span></h2>
-
-            <p class="lead"><a href="http://www.nicolecfisher.com/SGT/" class="moreProjectsLink" target="_blank">Student
-                Grade Table</a> allows teachers to add, delete, and sort their own database of students.</p>
-
-            <p class="lead"><a href="http://www.nicolecfisher.com/hackathon/" target="_blank" class="moreProjectsLink">Tweet
-                on Fleek</a> allows users to vote what tweets
-                reigns supreme!</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-            <div class="container center-block">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active centerblock">
-                            <a href="http://www.nicolecfisher.com/SGT/" target="_blank"><img src="images/SGT.png"
-                                                                                             alt="Student Grade Table"></a>
+                                <p>As a teaching assistant at UC Davis for a course in "Technology in Computers", I was
+                                    first introduced to
+                                    coding by teaching students how to create personal websites for themselves. After
+                                    graduating college,
+                                    coding came back into my life after my sister went to Dev Bootcamp in San Francisco.
+                                    She has inspired me
+                                    to become a developer and I'm so excited to be following in her footsteps. With the
+                                    support of my
+                                    husband
+                                    and family I went through a 13 week bootcamp at LearningFuze. I am beyond excited to
+                                    start working as a
+                                    front-end developer!.</p>
+                            </div>
                         </div>
-                        <div class="item centerblock">
-                            <a href="http://www.nicolecfisher.com/hackathon/" target="_blank"><img
-                                    src="images/TweetFleak.png" alt="Tweet on Fleek"></a>
+                    </div>
+                    <div class="item">
+                        <div class="thumbnail"><img src="img/bandg.png" alt="..." class="img-circle team-img">
+
+                            <div class="caption">
+                                <h3>California Dreamer</h3>
+
+                                <p>My name is Nicole and I was born and raised in Orange County, California. I graduated
+                                    from the University
+                                    of California at Davis in 2011 with a Bachelor of Science degree in Managerial
+                                    Economics. In June 2015,
+                                    I received a Business Analyst certificate from the University of California at
+                                    Irvine. I am the youngest
+                                    daughter of a family of four. My older sister and my parents mean the world to me
+                                    and have made me the
+                                    person I am today. I recently married the love of my life, Ben, this past summer in
+                                    San Clemente. My
+                                    favorite things to do are spend time with my husband and family, go to Disneyland,
+                                    and bake
+                                    desserts.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="thumbnail"><img src="img/castle.png" alt="..." class="img-circle team-img">
+
+                            <div class="caption">
+                                <h3>Disney Lover</h3>
+
+                                <p>To say I love Disneyland and anything Disney would be an understatement. Since I was
+                                    3 years old, there
+                                    has been a tradition for my family and I to go to Disneyland every New Year's day.
+                                    I've been a
+                                    passholder for 8 years and have been to the parks over 200 times.. you definitely
+                                    don't need a park map
+                                    when you're with me! Churros and Dole Whip are my favorite treats and my favorite
+                                    ride is Indiana Jones.
+                                    My passion for Disney shows through some of my projects so don't be
+                                    surprised if you find yourself looking at a Disney/Pixar movie themed project!</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <hr class="featurette-divider">
-    <h2 class="section" id="projectsTitle">Skills</h2>
+</div>
 
-    <div class="skills">
-        <div>
-            <p>HTML</p>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-
-            <p>CSS</p>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-
-            <p>Bootstrap</p>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star-empty"></span>
-            <span class="glyphicon glyphicon-star-empty"></span>
+<!-- Projects Section -->
+<div id="works-section" class="text-center">
+    <div class="container"> <!-- Container -->
+        <div class="section-title wow fadeInDown">
+            <h2 id="projects">Projects</h2>
+            <hr>
+            <div class="clearfix"></div>
+            <p></p>
         </div>
-        <div>
-            <p>Javascript</p>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star-empty"></span>
-
-            <p>Angular</p>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star-empty"></span>
-            <span class="glyphicon glyphicon-star-empty"></span>
-            <span class="glyphicon glyphicon-star-empty"></span>
-
-            <p>jQuery</p>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star-empty"></span>
+        <div class="categories">
+            <ul class="cat">
+                <li>
+                    <ol class="type">
+                        <li><a href="#" data-filter="*" class="active">All</a></li>
+                        <li><a href="#" data-filter=".web">Front-End</a></li>
+                        <li><a href="#" data-filter=".app">Back-End</a></li>
+                        <!--<li><a href="#" data-filter=".branding">Branding</a></li>-->
+                    </ol>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
         </div>
-        <div>
-            <p>PHP</p>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star-empty"></span>
-            <span class="glyphicon glyphicon-star-empty"></span>
-            <span class="glyphicon glyphicon-star-empty"></span>
-
-            <p>MySQL</p>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star-empty"></span>
-            <span class="glyphicon glyphicon-star-empty"></span>
-            <span class="glyphicon glyphicon-star-empty"></span>
-
-            <p>Disney Master</p>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
+        <div class="row">
+            <div class="portfolio-items">
+                <div class="col-sm-6 col-md-3 col-lg-3 web">
+                    <div class="portfolio-item wow fadeInUp" data-wow-delay="200ms">
+                        <div class="hover-bg"><a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                            <div class="hover-text">
+                                <h4>Cars Cafe</h4>
+                                <div class="clearfix"></div>
+                                <i class="fa fa-plus"></i></div>
+                            <img src="img/CarsCafe.png" class="img-responsive" alt="Project Title"> </a></div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-3 web">
+                    <div class="portfolio-item wow fadeInUp" data-wow-delay="400ms">
+                        <div class="hover-bg"><a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                            <div class="hover-text">
+                                <h4>Tic-Tac-Wars</h4>
+                                <div class="clearfix"></div>
+                                <i class="fa fa-plus"></i></div>
+                            <img src="img/TicTacWars.png" class="img-responsive" alt="Project Title"> </a></div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-3 app">
+                    <div class="portfolio-item wow fadeInUp" data-wow-delay="600ms">
+                        <div class="hover-bg"><a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                            <div class="hover-text">
+                                <h4>Just Married</h4>
+                                <div class="clearfix"></div>
+                                <i class="fa fa-plus"></i></div>
+                            <img src="img/JustMarried.png" class="img-responsive" alt="Project Title"> </a></div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-3 app">
+                    <div class="portfolio-item wow fadeInUp" data-wow-delay="800ms">
+                        <div class="hover-bg"><a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                            <div class="hover-text">
+                                <h4>Student Grade Table</h4>
+                                <div class="clearfix"></div>
+                                <i class="fa fa-plus"></i></div>
+                            <img src="img/SGT.png" class="img-responsive" alt="Project Title"> </a></div>
+                    </div>
+                </div>
+                <!--<div class="col-sm-6 col-md-3 col-lg-3 app">-->
+                <!--<div class="portfolio-item wow fadeInUp" data-wow-delay="1000ms">-->
+                <!--<div class="hover-bg"><a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">-->
+                <!--<div class="hover-text">-->
+                <!--<h4>Tweet on Fleek</h4>-->
+                <!--App Development-->
+                <!--<div class="clearfix"></div>-->
+                <!--<i class="fa fa-plus"></i></div>-->
+                <!--<img src="img/TweetFleak.png" class="img-responsive" alt="Project Title"> </a></div>-->
+                <!--</div>-->
+                <!--</div>-->
+            </div>
         </div>
     </div>
-    <hr class="featurette-divider">
-    <!-- FOOTER -->
-    <!--<a href="#" class="triangleContainer"><span-->
-    <!--class="glyphicon glyphicon-triangle-top triangle floating"></span></a>-->
-    <h2 class="quote">"All of our dreams can come true if we have the courage to pursue them" </h2>
+</div>
 
-    <p class="WaltDisney"> - Walt Disney</p>
+<!-- Services Section -->
+<div id="services-section" class="text-center">
+    <div class="container">
+        <div class="section-title wow fadeInDown">
+            <h2>Skills</h2>
+            <hr>
+            <div class="clearfix"></div>
+            <p></p>
+        </div>
+        <div class="space"></div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="200ms"><i class="fa fa-code"></i>
+                <h4><strong>HTML</strong></h4>
+            </div>
+            <div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="400ms"><i class="fa fa-paint-brush"></i>
+                <h4><strong>CSS</strong></h4>
 
-    <p class="footerLinks">
-        <i class="icon-github"></i>
-        <a href="https://github.com/nfisher620/" target="_blank"><span
-                class="glyphicon glyphicon-download-alt modalIcons"></span></a>
-        <a href="mailto:ncspence4@gmail.com"><span
-                class="glyphicon glyphicon-envelope modalIcons"></span></a>
-        <a href="https://www.linkedin.com/in/nspence620" target="_blank"><span
-                class="glyphicon glyphicon-user modalIcons"></span></a>
-    </p>
+                <p></p>
+            </div>
+            <div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="600ms"><i class="fa fa-file-code-o"></i>
+                <h4><strong>Javascript</strong></h4>
+
+                <p></p>
+            </div>
+            <div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="800ms"><i class="fa fa-book"></i>
+                <h4><strong>jQuery</strong></h4>
+
+                <p></p>
+            </div>
+            <div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="800ms"><i class="fa fa-bold"></i>
+                <h4><strong>Bootstrap</strong></h4>
+
+                <p></p>
+            </div>
+            <div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="800ms"><i class="fa fa-adn"></i>
+                <h4><strong>Angular</strong></h4>
+
+                <p></p>
+            </div>
+            <div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="800ms"><i class="fa fa-database"></i>
+                <h4><strong>Php</strong></h4>
+
+                <p></p>
+            </div>
+            <div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="800ms"><i class="fa fa-table"></i>
+                <h4><strong>MySQL</strong></h4>
+
+                <p></p>
+            </div>
+            <div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="800ms"><i class="fa fa-terminal"></i>
+                <h4><strong>Git</strong></h4>
+
+                <p></p>
+            </div>
+            <div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="800ms"><i class="fa fa-picture-o"></i>
+                <h4><strong>Responsive Design</strong></h4>
+
+                <p></p>
+            </div>
+            <div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="800ms"><i
+                    class="fa fa-mobile-phone"></i>
+                <h4><strong>Mobile First</strong></h4>
+
+                <p></p>
+            </div>
+            <div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="800ms"><i class="fa fa-rocket"></i>
+                <h4><strong>Disney Master</strong></h4>
+
+                <p></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About Section -->
+<!--<div id="about-section">-->
+<!--<div class="container">-->
+<!--<div class="section-title text-center wow fadeInDown">-->
+<!--<h2><strong>About</strong> us</h2>-->
+<!--<hr>-->
+<!--<div class="clearfix"></div>-->
+<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh-->
+<!--ante facilisis.</p>-->
+<!--</div>-->
+<!--<div class="row">-->
+<!--<div class="col-md-6 wow fadeInLeft"><img src="img/about.png" class="img-responsive"></div>-->
+<!--<div class="col-md-6 wow fadeInRight">-->
+<!--<h4>Who We Are</h4>-->
+
+<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed-->
+<!--commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo-->
+<!--nibh ante facilisis bibendum.</p>-->
+
+<!--<div class="space"></div>-->
+<!--<h4>What We Do</h4>-->
+
+<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed-->
+<!--commodo nibh ante facilisis bibendum dolor feugiat at.</p>-->
+
+<!--<div class="space"></div>-->
+<!--<div class="list-style">-->
+<!--<div class="row">-->
+<!--<div class="col-lg-6 col-sm-6 col-xs-12">-->
+<!--<ul>-->
+<!--<li>Lorem ipsum dolor</li>-->
+<!--<li>Consectetur adipiscing</li>-->
+<!--<li>Duis sed dapibus leo</li>-->
+<!--<li>Sed commodo nibh ante</li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--<div class="col-lg-6 col-sm-6 col-xs-12">-->
+<!--<ul>-->
+<!--<li>Lorem ipsum dolor</li>-->
+<!--<li>Consectetur adipiscing</li>-->
+<!--<li>Duis sed dapibus leo</li>-->
+<!--<li>Sed commodo nibh ante</li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!-- Team Section -->
+<!--<div id="team-section" class="text-center">-->
+<!--<div class="container">-->
+<!--<div class="section-title wow fadeInDown">-->
+<!--<h2>About <strong>Me</strong></h2>-->
+<!--<hr>-->
+<!--<div class="clearfix"></div>-->
+<!--</div>-->
+<!--<div id="row">-->
+<!--<div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="200ms">-->
+<!--<div class="thumbnail"><img src="img/bandg.png" alt="..." class="img-circle team-img">-->
+
+<!--<div class="caption">-->
+<!--<h3>California Dreamer</h3>-->
+<!--&lt;!&ndash;<ul class="list-inline">&ndash;&gt;-->
+<!--&lt;!&ndash;<li><a href="#"><i class="fa fa-facebook"></i></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;<li><a href="#"><i class="fa fa-twitter"></i></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;<li><a href="#"><i class="fa fa-google-plus"></i></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;</ul>&ndash;&gt;-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="400ms">-->
+<!--<div class="thumbnail"><img src="img/me4.png" alt="..." class="img-circle team-img">-->
+
+<!--<div class="caption">-->
+<!--<h3>Developer</h3>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="600ms">-->
+<!--<div class="thumbnail"><img src="img/castle.png" alt="..." class="img-circle team-img">-->
+
+<!--<div class="caption">-->
+<!--<h3></h3>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+
+
+<!-- Contact Section -->
+<div id="contact-section" class="text-center">
+    <div class="container">
+        <div class="section-title wow fadeInDown">
+            <h2 id="contact"><strong>Contact</strong>Me</h2>
+            <hr>
+        </div>
+        <div class="col-md-8 col-md-offset-2 wow fadeInUp" data-wow-delay="200ms">
+            <div class="col-md-4"><a href="https://github.com/nfisher620"><i class="fa fa-github"></i></a>
+
+                <p>Github</p>
+            </div>
+            <div class="col-md-4"><a href="mailto:ncspence4@gmail.com"><i class="fa fa-envelope-o fa-2x"></i></a>
+
+                <p>Email</p>
+            </div>
+            <div class="col-md-4"><a href="https://www.linkedin.com/in/nspence620"><i class="fa fa-linkedin"></i></a>
+
+                <p>LinkedIn</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-md-8 col-md-offset-2 wow fadeInUp" data-wow-delay="400ms">
+            <h3>Leave me a message</h3>
+
+            <form name="sentMessage" id="contactForm" novalidate>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message"
+                              required></textarea>
+
+                    <p class="help-block text-danger"></p>
+                </div>
+                <div id="success"></div>
+                <button type="submit" class="btn btn-default">Send Message</button>
+            </form>
+            <!--<div class="social">-->
+            <!--<ul>-->
+            <!--<li><a href="#"><i class="fa fa-github"></i></a></li>-->
+            <!--<li><a href="#"><i class="fa fa-linkedin"></i></a></li>-->
+            <!--</ul>-->
+            <!--</div>-->
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div class="container">
+        <p>"All of our dreams can come true if we have the courage to pursue them" - Walt Disney</p>
+    </div>
+</div>
+
+<!-- Portfolio Modals -->
+<!-- Use the modals below to showcase details about your portfolio projects! -->
+
+<!-- Portfolio Modal 1 -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Cars Cafe</h2>
+
+                        <p class="item-intro">Ka-Chow!</p>
+                        <img class="img-responsive img-centered" src="img/CarsCafe.png" alt="Cars Cafe">
+
+                        <p>Cars Cafe is a game of memory! Help Sheriff round up the cars of Radiator Springs by finding
+                            all the matches so the cars can help you win the Piston Cup!</p>
+                        <ul class="list-inline">
+                            <button type="button" class="btn btn-primary"><li><a href="https://github.com/nfisher620/memory_match">Code</a></li></button>
+                            <button type="button" class="btn btn-primary"><li><a href="http://www.nicolecfisher.com/memory_match">Demo</a></li></button>
+                        </ul>
+                        <!--<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>-->
+                        <!--Close Project-->
+                        <!--</button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio Modal 2 -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Tic-Tac-Wars</h2>
+
+                        <p class="item-intro">May The Force Be With You</p>
+                        <img class="img-responsive img-centered" src="img/TicTacWars.png" alt="Tic-Tac-Wars">
+
+                        <p>Tic-Tac-Wars is a classic game of Tic-Tac-Toe but with a twist. Use the force to defeat the
+                            dark side.</p>
+                        <ul class="list-inline">
+                            <button type="button" class="btn btn-primary"><li><a href="https://github.com/nfisher620/hacka-tictactoe-athon">Code</a></li></button>
+                            <button type="button" class="btn btn-primary"><li><a href="http://www.nicolecfisher.com/hacka-tictactoe-athon/">Demo</a></li></button>
+                        </ul>
+                        <!--<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>-->
+                        <!--Close Project-->
+                        <!--</button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio Modal 3 -->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Just Married</h2>
+
+                        <p class="item-intro">Final Project</p>
+                        <img class="img-responsive img-centered" src="img/JustMarried.png" alt="Just Married">
+
+                        <p>A platform for past brides to share their weddings to give inspiration to current brides
+                            planning their weddings. Who needs David Tutera?</p>
+                        <ul class="list-inline">
+                            <button type="button" class="btn btn-primary"><li><a href="https://github.com/nfisher620/Just_Married">Code</a></li></button>
+                            <button type="button" class="btn btn-primary"><li><a href="http://www.nicolecfisher.com/Just_Married/">Demo</a></li></button>
+                        </ul>
+                        <!--<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>-->
+                        <!--Close Project-->
+                        <!--</button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio Modal 4 -->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Student Grade Table</h2>
+
+                        <p class="item-intro">The New Teacher's Pet</p>
+                        <img class="img-responsive img-centered" src="img/SGT.png" alt="Student Grade Table">
+
+                        <p>Student Grade Table allows teachers to add, delete, and sort their own database of
+                            students.</p>
+                        <ul class="list-inline">
+                            <button type="button" class="btn btn-primary"><li><a href="https://github.com/nfisher620/SGT">Code</a></li></button>
+                            <button type="button" class="btn btn-primary"><li><a href="http://www.nicolecfisher.com/SGT/">Demo</a></li></button>
+                        </ul>
+                        <!--<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>-->
+                        <!--Close Project-->
+                        <!--</button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio Modal 5 -->
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Tweet on Fleek</h2>
+
+                        <p class="item-intro">Eyebrows aren't the only things on fleek.</p>
+                        <img class="img-responsive img-centered" src="img/TweetFleak.png" alt="Tweet on Fleek">
+
+                        <p>Tweet on Fleek allows users to vote what tweets
+                            reigns supreme!</p>
+                        <ul class="list-inline">
+                        </ul>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close Project
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio Modal 6 -->
+<!--<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">-->
+<!--<div class="modal-content">-->
+<!--<div class="close-modal" data-dismiss="modal">-->
+<!--<div class="lr">-->
+<!--<div class="rl"></div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="container">-->
+<!--<div class="row">-->
+<!--<div class="col-lg-8 col-lg-offset-2">-->
+<!--<div class="modal-body">-->
+<!--&lt;!&ndash; Project Details Go Here &ndash;&gt;-->
+<!--<h2>Project Title</h2>-->
+
+<!--<p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>-->
+<!--<img class="img-responsive img-centered" src="img/portfolio/06-preview.jpg" alt="">-->
+
+<!--<p>Lorem ipsum dolor sit amet, sea essent iisque iudicabit te, pro no justo delicata inimicus,-->
+<!--et oblique docendi laboramus eum. Ei minim fabulas pertinacia pro, graeco urbanitas-->
+<!--reformidans quo id. Error congue tacimates ei vis, facer facete ius cu, audiam prodesset pri-->
+<!--ut. Id semper fuisset vel, has dolorum menandri eu.</p>-->
+<!--<ul class="list-inline">-->
+<!--<li><strong>Client</strong>: John Doe</li>-->
+<!--<li><strong>Category</strong>: Web Design</li>-->
+<!--</ul>-->
+<!--<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>-->
+<!--Close Project-->
+<!--</button>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--&lt;!&ndash; Portfolio Modal 7 &ndash;&gt;-->
+<!--<div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">-->
+<!--<div class="modal-content">-->
+<!--<div class="close-modal" data-dismiss="modal">-->
+<!--<div class="lr">-->
+<!--<div class="rl"></div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="container">-->
+<!--<div class="row">-->
+<!--<div class="col-lg-8 col-lg-offset-2">-->
+<!--<div class="modal-body">-->
+<!--&lt;!&ndash; Project Details Go Here &ndash;&gt;-->
+<!--<h2>Project Title</h2>-->
+
+<!--<p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>-->
+<!--<img class="img-responsive img-centered" src="img/portfolio/07-preview.jpg" alt="">-->
+
+<!--<p></p>-->
+<!--<ul class="list-inline">-->
+<!--<li><strong>Client</strong>: John Doe</li>-->
+<!--<li><strong>Category</strong>: Web Design</li>-->
+<!--</ul>-->
+<!--<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>-->
+<!--Close Project-->
+<!--</button>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--&lt;!&ndash; Portfolio Modal 8 &ndash;&gt;-->
+<!--<div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">-->
+<!--<div class="modal-content">-->
+<!--<div class="close-modal" data-dismiss="modal">-->
+<!--<div class="lr">-->
+<!--<div class="rl"></div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="container">-->
+<!--<div class="row">-->
+<!--<div class="col-lg-8 col-lg-offset-2">-->
+<!--<div class="modal-body">-->
+<!--&lt;!&ndash; Project Details Go Here &ndash;&gt;-->
+<!--<h2>Project Title</h2>-->
+
+<!--<p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>-->
+<!--<img class="img-responsive img-centered" src="img/portfolio/08-preview.jpg" alt="">-->
+
+<!--<p></p>-->
+<!--<ul class="list-inline">-->
+<!--<li><strong></strong>: </li>-->
+<!--<li><strong></strong>: </li>-->
+<!--</ul>-->
+<!--<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>-->
+<!--Close Project-->
+<!--</button>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+<script type="text/javascript" src="js/contact_me.js"></script>
+<script type="text/javascript" src="js/owl.carousel.js"></script>
+
+<!-- Javascripts
+    ================================================== -->
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

@@ -62,7 +62,7 @@ function buildProjectGallery() {
         var projectDescription = $('<p>',{
             text: projects[i].text,
             class:"description"
-            });
+        });
         projectDescContainer.append(projectDescription);
         projectCover.append(projectTitle);
         projectContainer.append(projectImg, projectCover).appendTo(container);
