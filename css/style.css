@@ -676,7 +676,7 @@ label {
     display: block;
     width: 100%;
     padding: 6px 12px;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.42857143;
     color: black;
     background-color: wheat;
@@ -688,6 +688,9 @@ label {
     -webkit-transition: none;
     -o-transition: none;
     transition: none;
+}
+#contact-section .form-control::-webkit-input-placeholder{
+    color:black
 }
 
 #contact-section .form-control:focus {
