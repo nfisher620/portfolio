@@ -1,11 +1,48 @@
 //Hidden content in modal
 $(document).ready(function() {
-    $("#button").toggle(function() {
-        $(this).text('Hide Content');
-    }, function() {
-        $(this).text('show Content');
-    }).click(function(){
+    $("#moreinfo").click(function(){
         $("#hidden_content").slideToggle("slow");
+        if ($(this).text() == "More Info")
+        {
+            $(this).text("Close Info");
+        }
+        else
+        {
+            $(this).text("More Info");
+        };
+    });
+    $("#moreinfoST").click(function(){
+        $("#hidden_contentST").slideToggle("slow");
+        if ($(this).text() == "More Info")
+        {
+            $(this).text("Close Info");
+        }
+        else
+        {
+            $(this).text("More Info");
+        };
+    });
+    $("#moreinfoJM").click(function(){
+        $("#hidden_contentJM").slideToggle("slow");
+        if ($(this).text() == "More Info")
+        {
+            $(this).text("Close Info");
+        }
+        else
+        {
+            $(this).text("More Info");
+        };
+    });
+    $("#moreinfoSGT").click(function(){
+        $("#hidden_contentSGT").slideToggle("slow");
+        if ($(this).text() == "More Info")
+        {
+            $(this).text("Close Info");
+        }
+        else
+        {
+            $(this).text("More Info");
+        };
     });
 });
 function main() {

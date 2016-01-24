@@ -7,6 +7,9 @@ body, html {
 #hidden_content{
     display:none;
 }
+.projectsImg{
+    max-width:100%;
+}
 
 h1 {
     /*font-weight: 700;*/
