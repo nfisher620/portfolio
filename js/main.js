@@ -1,4 +1,13 @@
-
+//Hidden content in modal
+$(document).ready(function() {
+    $("#button").toggle(function() {
+        $(this).text('Hide Content');
+    }, function() {
+        $(this).text('show Content');
+    }).click(function(){
+        $("#hidden_content").slideToggle("slow");
+    });
+});
 function main() {
 
 (function () {

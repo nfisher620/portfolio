@@ -4,6 +4,9 @@ body, html {
     -webkit-font-smoothing: antialiased !important;
     color: #1c424d;
 }
+#hidden_content{
+    display:none;
+}
 
 h1 {
     /*font-weight: 700;*/
@@ -385,7 +388,7 @@ ol.type li a:hover {
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     transition: all 0.3s;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .hover-bg:hover .hover-text > h4 {
