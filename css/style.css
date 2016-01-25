@@ -4,7 +4,7 @@ body, html {
     -webkit-font-smoothing: antialiased !important;
     color: #1c424d;
 }
-#hidden_content{
+#hidden_content, #hidden_contentST, #hidden_contentJM, #hidden_contentSGT{
     display:none;
 }
 .projectsImg{
@@ -493,13 +493,13 @@ ol.type li a:hover {
 }
 
 .portfolio-modal .btn-primary {
-    color: black;
+    color: coral;
     background-color: black;
     border-color: black;
 }
 
 .portfolio-modal .btn-primary:hover, .portfolio-modal .btn-primary:focus, .portfolio-modal .btn-primary.focus, .portfolio-modal .btn-primary:active, .portfolio-modal .btn-primary.active {
-    color: black;
+    color: #f7dc6f;
     background-color: black;
 }
 
@@ -789,6 +789,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
     .hover-bg .hover-text {
         padding: 12% 10%;
+    }
+    li{
+        color:white;
     }
 }
 
