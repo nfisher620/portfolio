@@ -368,7 +368,7 @@ ol.type li a:hover {
     height: 260px;
     overflow: hidden;
     position: relative;
-    border-radius: 15px 50px;
+    border-radius: 15px 100px;
 }
 #projects{
     color:white;
