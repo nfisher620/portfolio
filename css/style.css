@@ -373,7 +373,23 @@ ol.type li a:hover {
 #projects{
     color:white;
 }
-
+.ulProjects{
+    color:black;
+    font-size:16px;
+}
+.breakdown{
+    width:355px;
+    display:inline-block;
+    float:left;
+    font-size:14px;
+    border:1px dashed coral;
+}
+li{
+    list-style-type: none;
+}
+.personalStatement{
+    float:left;
+}
 .hover-bg .hover-text {
     position: absolute;
     text-align: center;
@@ -384,7 +400,8 @@ ol.type li a:hover {
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: all 0.5s;
+    border-radius: 15px 100px;
+    /*transition: all 0.5s;*/
 }
 
 .hover-bg .hover-text > h4 {
@@ -445,16 +462,17 @@ ol.type li a:hover {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 10px 0 30px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
+    clear:left;
 }
 
 .portfolio-modal .modal-content img {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     height:inherit;
 }
 
